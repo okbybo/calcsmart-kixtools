@@ -10,9 +10,9 @@ const T = {
   countdown: { zh: '倒计时', en: 'Countdown' },
   calculate: { zh: '计算', en: 'Calculate' },
   reset: { zh: '重置', en: 'Reset' },
-  donateTip: { zh: '☕ 觉得好用？打赏一杯咖啡', en: '☕ Find it useful? Buy me a coffee' },
-  donateAddr: { zh: 'Tron/USDT 打赏地址:', en: 'Tron/USDT Tip:' },
-  footer: { zh: '© 2026 CalcSmart · 免费在线计算器｜由KixTools提供', en: '© 2026 CalcSmart · Free Online Calculators | Powered by KixTools' },
+  donateTip: { zh: '☕ 觉得好用？喝杯咖啡', en: '☕ Find it useful? Buy me a coffee' },
+  donateAddr: { zh: 'Tron/USDT 星辰大海:', en: 'Tron/USDT Tip:' },
+  footer: { zh: '© 2026 CalcSmart · 免费在线计算器｜由Tools提供', en: '© 2026 CalcSmart · Free Online Calculators | Powered by KixTools' },
 
   // Index
   indexTitle: { zh: 'CalcSmart智算 - 多功能免费在线计算器大全', en: 'CalcSmart - Free Online Calculators & Tools' },
@@ -134,8 +134,8 @@ function renderHeader(active) {
 }
 
 function renderFooter() {
-  return `<div class="donate"><p data-t="donateTip">${t('donateTip')}</p><p><span data-t="donateAddr">${t('donateAddr')}</span> <code>TEdwRKtNa1qyLLDGb6dGEdhLgDYnDBMF1c</code></p></div>
-  <footer class="footer">© 2026 CalcSmart · 免费在线计算器｜由<a href="https://kixtools.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">KixTools</a>提供</footer>`;
+  return `<div class="donate"><p data-t="donateTip">${t('donateTip')}</p><p><span data-t="donateAddr">${t('donateAddr')}</span> <code>免费使用</code></p></div>
+  <footer class="footer">© 2026 CalcSmart · 免费在线计算器｜由<a href="https://calc.6786678.xyz" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline">KixTools</a>提供</footer>`;
 }
 
 function fmt(n) { return n.toLocaleString('zh-CN', {minimumFractionDigits:2, maximumFractionDigits:2}); }
